@@ -6,27 +6,39 @@
 
 <br>
 
-# Nome do projeto
+# Cap 3 - Implementando algoritmos de Machine Learning com Scikit-learn
 
-## Nome do grupo
-
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+## 👨‍🎓 Aluno:
+- <a href="https://www.linkedin.com/in/vitor-ribeiro-691a3729a/">Vitor Ribeiro Silva</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes Moreira</a>
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi Chiovato</a>
 
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+# Classificação de Grãos de Trigo com Aprendizado de Máquina  
+
+Este projeto busca aplicar técnicas de aprendizado de máquina para classificar amostras de grãos de trigo em três variedades: **Kama**, **Rosa** e **Canadian**, utilizando o **Seeds Dataset**, disponível no [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/236/seeds).  
+
+O estudo é baseado na metodologia **CRISP-DM** e inclui etapas como **preparação de dados**, **análise exploratória**, **treinamento de modelos** e **avaliação de desempenho**. Foram utilizados algoritmos como **Random Forest**, **SVM** e **KNN**, com foco na otimização de modelos para melhorar a acurácia e o desempenho geral.  
+
+## Sobre o Dataset  
+O conjunto de dados contém medições de **210 amostras** de grãos de trigo, com os seguintes atributos:  
+- **Área**: medida da área do grão.  
+- **Perímetro**: comprimento do contorno do grão.  
+- **Compacidade**: calculada como (4 × π × Área) / (Perímetro²).
+- **Comprimento do Núcleo**: eixo principal da elipse equivalente ao grão.  
+- **Largura do Núcleo**: eixo secundário da elipse.  
+- **Coeficiente de Assimetria**: medida da assimetria do grão.  
+- **Comprimento do Sulco do Núcleo**: comprimento do sulco central do grão.  
+- **Classe do Grão**: Kama, Rosa, Canadian.  
+
+O objetivo é identificar padrões nos dados e treinar modelos capazes de realizar classificações precisas, auxiliando em futuras análises e aplicações práticas no setor agrícola.  
+
 
 
 ## 📁 Estrutura de pastas
