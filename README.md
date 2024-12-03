@@ -6,7 +6,7 @@
 
 <br>
 
-# Cap 3 - Implementando algoritmos de Machine Learning com Scikit-learn
+# Implementando algoritmos de Machine Learning com Scikit-learn
 
 ## 👨‍🎓 Aluno:
 - <a href="https://www.linkedin.com/in/vitor-ribeiro-691a3729a/">Vitor Ribeiro Silva</a>
@@ -45,40 +45,50 @@ O objetivo é identificar padrões nos dados e treinar modelos capazes de realiz
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+- **.github**: Contém arquivos de configuração e automação específicos para o GitHub, como workflows do GitHub Actions, utilizados para automatizar processos como testes e deploy.
+- **assets**: Pasta destinada ao armazenamento de arquivos estáticos, como imagens dos gráficos desenvolvidos ou outros recursos visuais usados no projeto.
+- **config**: Arquivos de configuração gerais que definem parâmetros e ajustes para o funcionamento do projeto.
+- **document**: Contém os documentos do projeto, como o arquivo `.ipynb` com a análise desenvolvida.
+- **scripts**: Scripts auxiliares para tarefas específicas do projeto, como o arquivo `.py` com o código desenvolvido e funções que complementam a execução do projeto.
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+### Pré-requisitos
 
+Antes de executar o código, é necessário ter os seguintes pré-requisitos instalados em sua máquina:
+
+- **IDE ou editor de código**: Pode-se usar qualquer editor de código de sua preferência, como [VS Code](https://code.visualstudio.com/), [PyCharm](https://www.jetbrains.com/pycharm/), ou até mesmo o Jupyter Notebook para a execução dos arquivos `.ipynb`.
+- **Python**: Certifique-se de ter o Python instalado na versão 3.x. Você pode verificar a instalação do Python executando o comando:
+  ```bash
+  python --version
+
+### Passos para executar
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Vitor-coder-eng/Implementando-algoritmos-de-Machine-Learning-com-Scikit-learn
+
+2. **Acesse o diretório do projeto**:
+   ```bash
+   cd Implementando-algoritmos-de-Machine-Learning-com-Scikit-learn
+
+3. **Executar o código**:
+
+    Para executar o arquivo .ipynb, basta abrir o arquivo no Jupyter Notebook ou Jupyter Lab.
+    Para rodar o arquivo .py, execute o comando:
+    ```bash
+    python script.py
+
+4. **Verificar a saída**: Verifique os resultados gerados após a execução do código, como gráficos ou saídas de análises.
+
+5. **Observação**: Se for necessário, ajuste as configurações conforme o ambiente de execução, como versões de bibliotecas ou configurações específicas de serviço.
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
-
+* 0.5.0 - 03/12/2024
+  
 ## 📋 Licença
 
 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
-
 
